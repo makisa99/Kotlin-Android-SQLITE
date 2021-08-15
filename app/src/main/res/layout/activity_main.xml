@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+
+    <EditText
+        android:id="@+id/et_studentid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_marginHorizontal="10sp"
+        android:hint="Unesite ID studenta" />
+    <EditText
+        android:id="@+id/et_studentIme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:gravity="center"
+        android:layout_marginHorizontal="10sp"
+        android:hint="Unesite ime studenta" />
+    <EditText
+        android:id="@+id/et_studentFakultet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:gravity="center"
+        android:layout_marginHorizontal="10sp"
+        android:hint="Unesite fakultet studenta" />
+    <EditText
+        android:id="@+id/et_studentSmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:gravity="center"
+        android:layout_marginHorizontal="10sp"
+        android:hint="Unesite smer studenta" />
+
+    <Button
+        android:id="@+id/btnDodajte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginVertical="10sp"
+        android:layout_marginHorizontal="10sp"
+        android:text="Dodajte studenta" />
+
+    <Button
+        android:id="@+id/btnObrisite"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Obrisite studenta" />
+
+    <TextView
+        android:id="@+id/tv_podaci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginVertical="10sp"
+        android:layout_marginHorizontal="10sp" />
+
+    <ImageView
+        android:id="@+id/slikaMeta"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        app:srcCompat="@drawable/logomet" />
+
+    <WebView
+        android:id="@+id/vebvju"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+</ScrollView>

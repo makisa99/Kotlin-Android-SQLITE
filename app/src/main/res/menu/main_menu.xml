@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/prikazi_studenta"
+        android:title="Prikazi studenta">
+
+    </item>
+    <item
+        android:id="@+id/prikazi_fakultet"
+        android:title="Prikazi fakultet">
+
+    </item>
+
+    <item
+        android:id="@+id/prikazi_smer"
+        android:title="Prikazi smer">
+
+    </item>
+
+
+</menu>
