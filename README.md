@@ -1,2 +1,2 @@
-# 1PrviPrimer
+# SQLITE operations
  Kotlin Android SQLITE CRUD
